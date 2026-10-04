@@ -76,7 +76,7 @@ Mengapa demikian?
   Hasil run: 
 
   ![Gambar Output Percobaan 1 Pertanyaan 1](img/output1-1.1.png)
-  
+
 * **Pertanyaan 2:** Jelaskan maksud dari potongan kode berikut! ```if (bimbinganP1 >= 8 && bimbinganP2 >=4) {```
   * **Jawab:** Maksud dari potongan kode tersebut adalah blok itu akan di run jika bimbingan pembimbing 1 adalah minimal 8 kali dan bimbingan pembimbing 2 minimal 4 kali, sehingga jika salah satu kondisi tersebut tidak terpenuhi maka tidak akan dijalankan pernyatannya.
 * **Pertanyaan 3:** Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi!
@@ -130,15 +130,19 @@ berikut dan amati hasilnya.
 | 4 | false | false | false |
 
 Hasil uji 1: 
+
 ![Gambar Output Hasil uji 1](img/output2-H1.png)
 
 Hasil uji 2:
+
 ![Gambar Output Hasil uji 2](img/output2-H2.png)
 
 Hasil uji 3:
+
 ![Gambar Output Hasil uji 3](img/output2-H3.png)
 
 Hasil uji 4: 
+
 ![Gambar Output Hasil uji 4](img/output2-H4.png)
 
 
@@ -181,9 +185,11 @@ Hasil uji 4:
   Yang terjadi(hasil):
 
   Data uji 1:
+
   ![Gambar Output Percobaan 2 pertanyaan 3](img/output2-3.1.png)
 
   Data uji 2:
+  
   ![Gambar Output Percobaan 2 pertanyaan 3](img/output2-3.2.png)
 
 * **Pertanyaan 4:** Pada ekspresi ```mahasiswa || dosen```, kapan kondisi dosen tidak perlu dievaluasi? Jelaskan berdasarkan short-circuit evaluation.
