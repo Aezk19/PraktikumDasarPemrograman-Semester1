@@ -60,9 +60,13 @@ public class nestedUjianSkripsi21 {
 Berikut adalah contoh tampilan *output* setelah program dijalankan:
 
 ![Gambar Output Percobaan 1](img/output1.1.png)
+
 ![Gambar Output Percobaan 1](img/output1.2.png)
+
 ![Gambar Output Percobaan 1](img/output1.3.png)
+
 ![Gambar Output Percobaan 1](img/output1.4.png)
+
 ![Gambar Output Percobaan 1](img/output1.5.png)
 
 #### 2.1.3 Jawaban Pertanyaan / Pertanyaan Refleksi
@@ -70,7 +74,9 @@ Berikut adalah contoh tampilan *output* setelah program dijalankan:
 Mengapa demikian?
   * **Jawab:** Jika menjawab `No` maka yang dirun adalah blok `else` yaitu pernyataan `"pesan = Gagal! Mahasiswa masih memiliki tanggungan kompen"` . Hal tersebut dikarenakan kondisi `if` adalah `(bebasKompen.equalsIgnoreCase("Ya"))` sehingga jika diinput selain `ya` di bebasKompen maka akan dianggap false sehingga yang dirun adalah blok `else`.
   Hasil run: 
+
   ![Gambar Output Percobaan 1 Pertanyaan 1](img/output1-1.1.png)
+  
 * **Pertanyaan 2:** Jelaskan maksud dari potongan kode berikut! ```if (bimbinganP1 >= 8 && bimbinganP2 >=4) {```
   * **Jawab:** Maksud dari potongan kode tersebut adalah blok itu akan di run jika bimbingan pembimbing 1 adalah minimal 8 kali dan bimbingan pembimbing 2 minimal 4 kali, sehingga jika salah satu kondisi tersebut tidak terpenuhi maka tidak akan dijalankan pernyatannya.
 * **Pertanyaan 3:** Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi!
@@ -125,12 +131,16 @@ berikut dan amati hasilnya.
 
 Hasil uji 1: 
 ![Gambar Output Hasil uji 1](img/output2-H1.png)
+
 Hasil uji 2:
 ![Gambar Output Hasil uji 2](img/output2-H2.png)
+
 Hasil uji 3:
 ![Gambar Output Hasil uji 3](img/output2-H3.png)
+
 Hasil uji 4: 
 ![Gambar Output Hasil uji 4](img/output2-H4.png)
+
 
 #### 2.2.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 * **Pertanyaan 1:** Jelaskan fungsi operator `||`, `&&`, dan `!` pada kondisi program tersebut.
@@ -169,10 +179,13 @@ Hasil uji 4:
     }
   ``` 
   Yang terjadi(hasil):
+
   Data uji 1:
   ![Gambar Output Percobaan 2 pertanyaan 3](img/output2-3.1.png)
+
   Data uji 2:
   ![Gambar Output Percobaan 2 pertanyaan 3](img/output2-3.2.png)
+
 * **Pertanyaan 4:** Pada ekspresi ```mahasiswa || dosen```, kapan kondisi dosen tidak perlu dievaluasi? Jelaskan berdasarkan short-circuit evaluation.
   * **Jawab:** Kondisi dosen tidak perlu dievaluasi ketika variabel mahasiswa bernilai `true`, berdasarkan short-circuit evaluation jika menggunakan operator `||` dan variabel pertama bernilai `true` maka kondisi kedua tidak dievaluasi karena sudah pasti hasilnya `true`.
 * **Pertanyaan 5:** Pada ekspresi ```(mahasiswa || dosen) && !akunDiblokir```, kapan kondisi `!akunDiblokir` tidak perlu dievaluasi? Jelaskan.
@@ -223,7 +236,9 @@ public class nestedAksesLab21 {
 Berikut adalah contoh tampilan *output* setelah program dijalankan:
 
 ![Gambar Output Percobaan 3](img/output3.1.png)
+
 ![Gambar Output Percobaan 3](img/output3.2.png)
+
 ![Gambar Output Percobaan 3](img/output3.3.png)
 
 #### 2.3.3 Jawaban Pertanyaan / Pertanyaan Refleksi
@@ -265,8 +280,11 @@ Berikut adalah contoh tampilan *output* setelah program dijalankan:
     }
   ``` 
   Hasil run: 
+
   ![Gambar Output Percobaan 3 Pertanyaan 3](img/output3-3.1.png)
+
   ![Gambar Output Percobaan 3 Pertanyaan 3](img/output3-3.2.png)
+
   ![Gambar Output Percobaan 3 Pertanyaan 3](img/output3-3.3.png)
   
 * **Pertanyaan 4:** Apa keuntungan menggunakan Nested IF pada kasus ini dibandingkan hanya satu `IF` jika sistem perlu menampilkan alasan penolakan yang berbeda?
@@ -275,9 +293,12 @@ Berikut adalah contoh tampilan *output* setelah program dijalankan:
   * **Jawab:**
   Kombinasi masukan yang menyebabkan akses ditolak pada level pertama :
   false-false-false-false
+
   ![Gambar Output Percobaan 3 Pertanyaan 5](img/output3.1.png)
+
   Kombinasi masukan yang menyebabkan akses ditolak pada level kedua :
   true-false-false-false
+
   ![Gambar Output Percobaan 3 Pertanyaan 5](img/output3.3.png)
 
 ## 3: TUGAS MANDIRI
