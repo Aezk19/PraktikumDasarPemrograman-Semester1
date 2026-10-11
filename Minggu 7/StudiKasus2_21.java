@@ -34,6 +34,23 @@ public class StudiKasus2_21 {
             } else {
                 pesan = "Jumlah dokumen tidak valid";
             } 
+        } else if (jenisKegiatan.equalsIgnoreCase("pkm")) {
+            System.out.print("Jumlah dokumen yang diupload(0/1/2/3/4): ");
+            jumlahDokumenUp = sc.nextByte();
+            System.out.print("Masukkan status pendanaan(0.tidak lolos/1.lolos): ");
+            statusPendanaan = sc.nextByte();
+            if (jumlahDokumenUp == 4) {
+                if (statusPendanaan == 1) {
+                    pesan = "Memperoleh dana penghargaan";
+                } else {
+                    pesan = "Tidak memperoleh penghargaan, status pendanaan tidak lolos";
+                }
+            } else if (jumlahDokumenUp < 4 && jumlahDokumenUp >= 0) {
+                dokumenKurang = 4-jumlahDokumenUp;
+                pesan = String.format("Dokumen tidak lengkap (kurang %d dokumen) dan dana penghargaan tidak diberikan", dokumenKurang);
+            } else {
+                pesan = "Jumlah dokumen tidak valid";
+            }
         } else {
             pesan = "Tidak memperoleh dana penghargaan, penyelenggara lomba bukan BELMAWA/BAKORMA/Mandiri/PKM";
         }
