@@ -30,7 +30,7 @@ public class StudiKasus2_21 {
                 }
             } else if (jumlahDokumenUp < 4 && jumlahDokumenUp >= 0) {
                 dokumenKurang = 4-jumlahDokumenUp;
-                pesan = String.format("Dokumen tidak lengkap (kurang %d dokumen) dan dana penghargaan tidak diberikan", dokumenKurang);
+                pesan = String.format("Dokumen tidak lengkap (kurang %d dokumen), dana penghargaan tidak diberikan", dokumenKurang);
             } else {
                 pesan = "Jumlah dokumen tidak valid";
             } 
@@ -47,7 +47,7 @@ public class StudiKasus2_21 {
                 }
             } else if (jumlahDokumenUp < 4 && jumlahDokumenUp >= 0) {
                 dokumenKurang = 4-jumlahDokumenUp;
-                pesan = String.format("Dokumen tidak lengkap (kurang %d dokumen) dan dana penghargaan tidak diberikan", dokumenKurang);
+                pesan = String.format("Dokumen tidak lengkap (kurang %d dokumen), dana penghargaan tidak diberikan", dokumenKurang);
             } else {
                 pesan = "Jumlah dokumen tidak valid";
             }
