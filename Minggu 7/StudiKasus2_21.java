@@ -24,7 +24,7 @@ public class StudiKasus2_21 {
             rank = sc.nextByte();
             if (jumlahDokumenUp == 4) {
                 if (rank>= 1 && rank <= 3) {
-                    pesan = "Memperoleh dana penghargaan";
+                    pesan = String.format("Memperoleh dana penghargaan, juara %s di lomba %s", rank, jenisKegiatan);
                 } else {
                     pesan = "Tidak memperoleh penghargaan, tidak juara atau juara harapan";
                 }
@@ -41,7 +41,7 @@ public class StudiKasus2_21 {
             statusPendanaan = sc.nextByte();
             if (jumlahDokumenUp == 4) {
                 if (statusPendanaan == 1) {
-                    pesan = "Memperoleh dana penghargaan";
+                    pesan = "Memperoleh dana penghargaan, PKM lolos pendanaan";
                 } else {
                     pesan = "Tidak memperoleh penghargaan, status pendanaan tidak lolos";
                 }
