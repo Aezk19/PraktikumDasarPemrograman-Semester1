@@ -16,3 +16,7 @@ public class PemilihanIf21 {
         }
     }
 }
+
+// 1. Nilai harus true
+// 2. tidak
+// 3. TRUE(Tetap dikenali sebagai boolean true). ya(Error karena tidak dikenali sebagai boolean true)

@@ -122,6 +122,7 @@ public class SiakadForNoAbsen {
     }
   ``` 
   Hasil run:
+
   ![Gambar Output Percobaan 1 Pertanyaan 4](img/output1.2.png)
 
 
@@ -253,6 +254,7 @@ public class SiakadWhileNoAbsen {
     }
   ``` 
   Hasil run:
+  
   ![Gambar Output Percobaan 2 Pertanyaan 4](img/output2.2.png)
 
 
