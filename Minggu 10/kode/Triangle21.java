@@ -8,9 +8,8 @@ public class Triangle21 {
         
         // Segitiga biasa
         System.out.println("Segitiga biasa");
-        int i = 0;
+        int i = 1;
         while (i <= n) {
-            System.out.print("[i=" + i + "] ");
             int j = 0;
             while (j < i) {
                 System.out.print("*");
@@ -22,14 +21,14 @@ public class Triangle21 {
         // Segitiga terbalik
         System.out.println();
         System.out.println("Segitiga terbalik");
-        i = 0;
-        while (i <= n) {
-            int j = 5;
-            while (j > i) {
+        i = n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
                 System.out.print("*");
-                j--;
+                j++;
             }
-            i++;
+            i--;
             System.out.println();
         }
 

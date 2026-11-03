@@ -4,9 +4,9 @@ public class NilaiKelompok21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
 
-        System.out.print("Masukkan jumlah kelompok: ");
+        System.out.print("Masukkan jumlah kelompok  : ");
         int jumlahKelompok = sc.nextInt();
-        System.out.print("Masukkan jumlah penilai: ");
+        System.out.print("Masukkan jumlah penilai   : ");
         int jumlahPenilai = sc.nextInt();
 
         if (jumlahKelompok <= 0 || jumlahPenilai <= 0) {
@@ -23,23 +23,23 @@ public class NilaiKelompok21 {
                 for (int j = 1; j <= jumlahPenilai; j++) {
                     int nilai;
                     do { 
-                        System.out.print(" Nilai dari Penilai " + j + ": ");
+                        System.out.print("  Nilai dari Penilai " + j + ": ");
                         nilai = sc.nextInt();
                         if (nilai < 0 || nilai > 100) {
-                            System.out.println(" Nilai harus 0-100, ulangi input");
+                            System.out.println("    Nilai harus 0-100, Ulangi input!");
                         }
                     } while (nilai < 0 || nilai > 100);
                     totalNilai += nilai;
                 }
 
-                double rataNilai = totalNilai = totalNilai / jumlahPenilai;
+                double rataNilai = totalNilai / jumlahPenilai;
                 System.out.println("Kelompok " + nomorKelompok + ": nilai rata-rata = " + rataNilai);
                     
                 if (rataNilai > rataTertinggi) {
                     rataTertinggi = rataNilai;
                     kelompokTerbaik = nomorKelompok;
                 }
-                
+
                 nomorKelompok++;
             }
             System.out.println("===============================");

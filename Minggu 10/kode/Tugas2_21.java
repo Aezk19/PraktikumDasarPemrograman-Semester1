@@ -16,7 +16,7 @@ public class Tugas2_21 {
             }
             System.out.println(); 
         }
-        System.out.println("Total angka tercetak : " + total);
+        System.out.println("Jumlah seluruh angka : " + total);
         sc.close();
     }
 }
